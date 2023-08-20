@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><airport>
+    <stripEnd metres="60"/>
+    <blastProtection metres="10"/>
+    <resa metres="800"/>
+
+    <runways>
+        <runway>
+            <designator code="09L"/>
+            <tora metres="3902"/>
+            <clearway metres="0"/>
+            <stopway metres="0"/>
+            <displacedThreshold metres="307"/>
+            <obstacleName name="vehicle1"/>
+            <obstacleHeight metres="12"/>
+            <nFromCentre metres="0"/>
+            <eFromCentre metres="0"/>
+            <distanceFromThreshold metres="500"/>
+        </runway>
+
+        <runway>
+            <designator code="27R"/>
+            <tora metres="3884"/>
+            <clearway metres="78"/>
+            <stopway metres="0"/>
+            <displacedThreshold metres="0"/>
+            <obstacleName name="vehicle1"/>
+            <obstacleHeight metres="12"/>
+            <nFromCentre metres="0"/>
+            <eFromCentre metres="0"/>
+            <distanceFromThreshold metres="3646"/>
+        </runway>
+    </runways>
+
+    <obstacles>
+        <obstacle>
+            <name name="vehicle1"/>
+            <height metres="12"/>
+        </obstacle>
+        <obstacle>
+            <name name="aircraft1"/>
+            <height metres="15"/>
+        </obstacle>
+    </obstacles>
+</airport>

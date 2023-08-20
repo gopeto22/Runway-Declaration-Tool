@@ -1,0 +1,160 @@
+.text {
+  -fx-font-family: "Orbitron";
+  -fx-font-size: 11px;
+  -fx-text-fill: #3b3939;
+}
+
+.table-row-cell:empty {
+  -fx-background-color: white;
+}
+
+.table-row-cell:empty .table-cell {
+  -fx-border-width: 0px;
+}
+
+.lightbackground{
+    -fx-background-color: #cccaca;
+}
+
+.background{
+  /*-fx-background-color: #383838;*/
+    -fx-background-color: #696868;
+}
+
+.componentbg{
+    /*-fx-background-color: #262626;*/
+    -fx-background-color: #4d4c4c;
+}
+
+.customtext{
+    -fx-fill: #cccaca;
+    -fx-text-fill: #cccaca;
+    -fx-font-family: 'Orbitron';
+    -fx-font-weight: bold;
+}
+
+.customtextblack {
+    -fx-font-family: 'Orbitron';
+    -fx-font-weight: bold;
+}
+
+.customtextnormal{
+    -fx-fill: #cccaca;
+    -fx-font-family: 'Orbitron';
+}
+
+.tablealigncenter {
+    -fx-alignment: CENTER;
+}
+
+.tablealignright {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.text-field{
+    -fx-font-family: 'Orbitron';
+    -fx-font-weight: bold;
+}
+
+.boxborder{
+    -fx-border-color: black;
+    -fx-border-insets: 3;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #4d4c4c;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #cccaca;
+}
+
+.bigtitle {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 50px;
+  -fx-font-weight: 900;
+  -fx-border-color: #3b3939;
+  -fx-stroke: #3b3939;
+  -fx-effect: dropshadow(gaussian, #3b3939, 1, 1.0, 1, 1);
+}
+
+.subtitle {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 22px;
+  -fx-font-weight: 900;
+  -fx-border-color: #3b3939;
+  -fx-stroke: #3b3939;
+  -fx-effect: dropshadow(gaussian, #3b3939, 0.5, 0.5, 0.5, 0.5);
+}
+
+.menubutton {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-background-insets: 0,10,0,10;
+  -fx-effect: dropshadow(gaussian, #3b3939, 1, 1.0, 1, 1);
+  -fx-font-family: "Orbitron";
+  -fx-text-fill: #3b3939;
+  -fx-font-weight: bold;
+  -fx-font-size: 12px;
+  -fx-padding: 20;
+}
+
+.midbutton {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-background-insets: 0,10,0,10;
+  -fx-effect: dropshadow(gaussian, #3b3939, 1, 1.0, 1, 1);
+  -fx-font-family: "Orbitron";
+  -fx-text-fill: #3b3939;
+  -fx-font-weight: bold;
+  -fx-font-size: 12px;
+  -fx-padding: 10;
+}
+
+.midbutton-selected {
+    -fx-background-color: green;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,10,0,10;
+    -fx-effect: dropshadow(gaussian, #3b3939, 1, 1.0, 1, 1);
+    -fx-font-family: "Orbitron";
+    -fx-text-fill: #3b3939;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 10;
+}
+
+.smallbutton {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-background-insets: 0,10,0,10;
+  -fx-effect: dropshadow(gaussian, #3b3939, 1, 1.0, 1, 1);
+  -fx-font-family: "Orbitron";
+  -fx-text-fill: #3b3939;
+  -fx-font-weight: bold;
+  -fx-font-size: 11px;
+  -fx-padding: 5;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.boxOutline {
+    -fx-border-color: white;
+    -fx-border-insets: 5;
+    -fx-border-width: 2;
+}
