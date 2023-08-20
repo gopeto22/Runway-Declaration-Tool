@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<airport>
+    <stripEnd metres="60"/>
+    <blastProtection metres="300"/>
+    <resa metres="240"/>
+
+    <runways>
+
+    </runways>
+
+    <obstacles>
+        <obstacle>
+            <name name="Shipping Container"/>
+            <height metres="3"/>
+            <width metres="2"/>
+            <length metres="2"/>
+        </obstacle>
+        <obstacle>
+            <name name="Small Aircraft"/>
+            <height metres="3"/>
+            <width metres="11"/>
+            <length metres="8"/>
+        </obstacle>
+        <obstacle>
+            <name name="Construction Crane"/>
+            <height metres="80"/>
+            <width metres="10"/>
+            <length metres="10"/>
+        </obstacle>
+        <obstacle>
+            <name name="Semitruck Trailer"/>
+            <height metres="4"/>
+            <width metres="3"/>
+            <length metres="14"/>
+        </obstacle>
+        <obstacle>
+            <name name="Luggage Cart"/>
+            <height metres="2"/>
+            <width metres="1"/>
+            <length metres="2"/>
+        </obstacle>
+    </obstacles>
+
+    <notifications>
+
+    </notifications>
+
+    <colors>
+        <color>
+            <name name="Runway"/>
+            <hexcode code="#a9a9a9"/>
+        </color>
+        <color>
+            <name name="Displaced Threshold"/>
+            <hexcode code="#bfef45"/>
+        </color>
+        <color>
+            <name name="Obstacle"/>
+            <hexcode code="#ffe119"/>
+        </color>
+        <color>
+            <name name="Stopway"/>
+            <hexcode code="#fabed4"/>
+        </color>
+        <color>
+            <name name="Clearway"/>
+            <hexcode code="#e6194b"/>
+        </color>
+        <color>
+            <name name="TORA"/>
+            <hexcode code="#42d4f4"/>
+        </color>
+        <color>
+            <name name="Obstacle Distance from Threshold"/>
+            <hexcode code="#800000"/>
+        </color>
+        <color>
+            <name name="Blast Distance"/>
+            <hexcode code="#f58231"/>
+        </color>
+        <color>
+            <name name="ALS"/>
+            <hexcode code="#f032e6"/>
+        </color>
+        <color>
+            <name name="RESA"/>
+            <hexcode code="#aaffc3"/>
+        </color>
+        <color>
+            <name name="Strip End"/>
+            <hexcode code="#000075"/>
+        </color>
+        <color>
+            <name name="TOCS"/>
+            <hexcode code="#469990"/>
+        </color>
+        <color>
+            <name name="Default"/>
+            <hexcode code="#cccaca"/>
+        </color>
+        <color>
+            <name name="Cleared and Graded"/>
+            <hexcode code="#9370db"/>
+        </color>
+        <color>
+            <name name="Instrument Strip"/>
+            <hexcode code="#32174d"/>
+        </color>
+    </colors>
+
+    <aircraft>
+        <model name="Boeing 737"/>
+        <length metres="28.65"/>
+        <wingspan metres="28.35"/>
+        <height metres="11.28"/>
+        <fuelcapacity litres="17865"/>
+        <maxspeed kmph="933"/>
+    </aircraft>
+</airport>
