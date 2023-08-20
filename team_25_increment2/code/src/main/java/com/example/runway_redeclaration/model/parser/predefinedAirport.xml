@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<airport>
+    <stripEnd metres="60"/>
+    <blastProtection metres="300"/>
+    <resa metres="240"/>
+
+    <runways>
+
+    </runways>
+
+    <obstacles>
+        <obstacle>
+            <name name="Shipping Container"/>
+            <height metres="3"/>
+        </obstacle>
+        <obstacle>
+            <name name="Small Aircraft"/>
+            <height metres="8"/>
+        </obstacle>
+        <obstacle>
+            <name name="Construction Crane"/>
+            <height metres="80"/>
+        </obstacle>
+        <obstacle>
+            <name name="Semi-truck Trailer"/>
+            <height metres="4"/>
+        </obstacle>
+        <obstacle>
+            <name name="Luggage Cart"/>
+            <height metres="2"/>
+        </obstacle>
+    </obstacles>
+
+    <notifications>
+
+    </notifications>
+</airport>
